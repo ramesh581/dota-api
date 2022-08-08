@@ -1,0 +1,25 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background:linear-gradient(90deg, rgba(53, 243, 6, 0.5) 0%, rgba(221, 11, 11, 0.5));
+}
+.user-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.user-card{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: rgb(211, 215, 235,0.2);
+}
+
+
